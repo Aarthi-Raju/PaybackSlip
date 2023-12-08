@@ -1,0 +1,64 @@
+.slip{
+    /* border: 2px black solid; */
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    /* border-radius: 20px; */
+}
+.head{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+form,.content-one,.content-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    flex-direction: column;
+    gap: 60px;
+}
+.content-one{
+    flex-direction: row;
+    gap: 30px;
+}
+.left-details,.right-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: start;
+}
+.left-details div,.right-details div{
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    gap: 10px;
+}
+input{
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    /* border-bottom: 3px rgb(68, 68, 68) solid; */
+    outline: none;
+}
+button{
+    padding: 10px 35px;
+    background-color: rgba(52, 119, 52, 0.938);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+}
